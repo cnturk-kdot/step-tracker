@@ -42,7 +42,7 @@ struct HealthDataListView: View {
         NavigationStack {
             Form {
                 DatePicker("Date", selection: $addDataDate, displayedComponents: .date)
-
+                
                 HStack {
                     
                     Text(metric.title)
